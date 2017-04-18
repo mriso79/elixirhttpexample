@@ -1,0 +1,20 @@
+{
+  "name": "ApiShip",
+  "homepage": "https://github.com/marcosriso/elixirhttpexample",
+  "authors": [
+    "Marcos Riso <mrphp7@gmail.com>"
+  ],
+  "description": "Web App with Elixir",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}

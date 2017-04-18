@@ -1,6 +1,6 @@
 defmodule Apiship do
   @moduledoc """
-  Serve data from a Database
+  A simple web server
   """
 
   use Application
