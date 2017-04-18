@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e35580a6-12fd-46df-b1fc-a59de4f49700" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/priv/static/404.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/home.html" afterPath="$PROJECT_DIR$/priv/static/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apiship.iml" afterPath="$PROJECT_DIR$/apiship.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/apiship.ex" afterPath="$PROJECT_DIR$/lib/apiship.ex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/webship.ex" afterPath="$PROJECT_DIR$/lib/webship.ex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitattributes" afterPath="$PROJECT_DIR$/.gitattributes" />
     </list>
     <ignored path="$PROJECT_DIR$/_build/dev/lib/apiship/ebin/" />
     <ignored path="$PROJECT_DIR$/_build/test/lib/apiship/ebin/" />
@@ -57,11 +52,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="webship.ex" pinned="false" current-in-tab="true">
+      <file leaf-file-name="webship.ex" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/webship.ex">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="531">
               <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitattributes" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitattributes">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -115,6 +120,7 @@
         <option value="$PROJECT_DIR$/priv/static/home.html" />
         <option value="$PROJECT_DIR$/priv/static/404.html" />
         <option value="$PROJECT_DIR$/lib/webship.ex" />
+        <option value="$PROJECT_DIR$/.gitattributes" />
       </list>
     </option>
   </component>
@@ -532,6 +538,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="531">
           <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
           <folding />
         </state>
       </provider>

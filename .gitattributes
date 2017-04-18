@@ -1,1 +1,2 @@
-priv/static/* linguist-vendored=false
+*.html linguist-vendored
+*.js linguist-vendored
