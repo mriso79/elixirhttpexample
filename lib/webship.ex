@@ -17,8 +17,9 @@ defmodule Webship do
     end
 
     get "/" do
+      html = File.read("web/home.html")
       conn
-      |> send_resp(200, "<html><head><title>ApiShip v0.1</title></head><body><b>ApiShip v0.1</b> <br> Welcome to the ApiShip Server.</body></html>")
+      |> send_resp(200, elem(html, 1))
       |> halt
     end
 
