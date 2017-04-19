@@ -1,4 +1,4 @@
-# Apiship
+# Elixir HTTP Server
 
-**TODO: Add Json Response**
+Example of serving pages and frontend with Elixir.
 
