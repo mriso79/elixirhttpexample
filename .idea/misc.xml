@@ -38,7 +38,7 @@
       <property name="caretWidth" class="java.lang.Integer" />
     </properties>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_4" default="true" project-jdk-name="Elixir 1.4.1" project-jdk-type="Elixir SDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_3" default="true" assert-keyword="false" jdk-15="false" project-jdk-name="Elixir 1.3.1" project-jdk-type="Elixir SDK">
     <output url="file://$PROJECT_DIR$/classes" />
   </component>
   <component name="masterDetails">

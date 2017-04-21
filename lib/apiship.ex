@@ -9,6 +9,7 @@ defmodule Apiship do
     import Supervisor.Spec, warn: false
 
     children = [
+      worker(Club.Repo, []),
       worker(Webship, [])
     ]
 

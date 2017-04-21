@@ -4,6 +4,9 @@ defmodule Webship do
     use Plug.Router
     use Plug.Builder
     require Logger
+    require Ecto.Query
+
+
 
     plug Plug.Logger
 
@@ -26,6 +29,18 @@ defmodule Webship do
       html = File.read("priv/static/home.html")
       conn
       |> send_resp(200, elem(html, 1))
+      |> halt
+    end
+
+    get "/users" do
+
+      query = Ecto.Query.from p in Club.User, order_by: [asc: p.usu_id], select: [p.usu_id, p.usu_nome, p.usu_email]
+      users = Club.Repo.all(query) |> JSON.encode()
+
+      {status, content} = users
+
+      conn
+      |> send_resp(200, content )
       |> halt
     end
 

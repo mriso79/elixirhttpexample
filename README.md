@@ -1,4 +1,9 @@
 # Elixir HTTP Server
 
-Example of serving pages and frontend with Elixir.
+## Backend queries and APIs
+## Serving pages and frontend with Elixir.
+
+* Including JSON support with JSON plugin
+* Postgres Connection example with Ecto
+
 

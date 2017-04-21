@@ -15,7 +15,7 @@ defmodule Apiship.Mixfile do
   # Type "mix help compile.app" for more information
   def application do
     # Specify extra applications you'll use from Erlang/Elixir
-    [extra_applications:    [:logger, :httpotion, :cowboy, :plug],
+    [extra_applications:    [:logger, :httpotion, :cowboy, :plug, :ecto, :postgrex],
                             mod: {Apiship, []}]
   end
 
@@ -33,7 +33,12 @@ defmodule Apiship.Mixfile do
         {:httpotion, "~> 3.0.2"},
         {:cowboy, "~> 1.0.3"},
         {:plug, "~> 1.0"},
-        {:poison, "~> 3.0"}
+        {:poison, "~> 3.0"},
+        {:postgrex, ">= 0.0.0"},
+           {:ecto, "~> 2.1"},
+           {:httpoison, "~> 0.10.0"},
+           {:poison, "~> 3.0"},
+           {:json, "~> 1.0"}
     ]
   end
 end
